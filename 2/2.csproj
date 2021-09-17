@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{974AA868-A5F9-4FD8-BC33-3259A4A7F7EB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_2</RootNamespace>
+    <AssemblyName>2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNVForm.Designer.cs">
+      <DependentUpon>AddNVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachNVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachNVForm.Designer.cs">
+      <DependentUpon>DanhSachNVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditNVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditNVForm.Designer.cs">
+      <DependentUpon>EditNVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\LICHSU.cs" />
+    <Compile Include="LichSuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichSuForm.Designer.cs">
+      <DependentUpon>LichSuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\MUONSACH.cs" />
+    <Compile Include="Forms\chức năng\MuonSachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\chức năng\MuonSachForm.Designer.cs">
+      <DependentUpon>MuonSachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\MY_DB.cs" />
+    <Compile Include="class\NXB.cs" />
+    <Compile Include="Forms\chức năng\PhatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\chức năng\PhatForm.Designer.cs">
+      <DependentUpon>PhatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\Program.cs" />
+    <Compile Include="class\NHANVIEN.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="class\SACH.cs" />
+    <Compile Include="Forms\sách\SachMuonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sách\SachMuonForm.Designer.cs">
+      <DependentUpon>SachMuonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sách\SachTraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sách\SachTraForm.Designer.cs">
+      <DependentUpon>SachTraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\SINHVIEN.cs" />
+    <Compile Include="QuanLyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyForm.Designer.cs">
+      <DependentUpon>QuanLyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>teDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="teDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>teDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="teDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>teDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sách\ThemsachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sách\ThemsachForm.Designer.cs">
+      <DependentUpon>ThemsachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sách\ThongtinsachsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sách\ThongtinsachsForm.Designer.cs">
+      <DependentUpon>ThongtinsachsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sách\XoaSuaSachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sách\XoaSuaSachForm.Designer.cs">
+      <DependentUpon>XoaSuaSachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>teDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="teDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>teDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sinh viên\ThongTinSVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sinh viên\ThongTinSVForm.Designer.cs">
+      <DependentUpon>ThongTinSVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sinh viên\XoaSuaSVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sinh viên\XoaSuaSVForm.Designer.cs">
+      <DependentUpon>XoaSuaSVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sinh viên\ThemSVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sinh viên\ThemSVForm.Designer.cs">
+      <DependentUpon>ThemSVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\thống kê\ThongKeGioiTinhForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\thống kê\ThongKeGioiTinhForm.Designer.cs">
+      <DependentUpon>ThongKeGioiTinhForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\thống kê\ThongKeSachTongSachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\thống kê\ThongKeSachTongSachForm.Designer.cs">
+      <DependentUpon>ThongKeSachTongSachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\thống kê\ThongKeSachMuonTraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\thống kê\ThongKeSachMuonTraForm.Designer.cs">
+      <DependentUpon>ThongKeSachMuonTraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\chức năng\TimKiemSachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\chức năng\TimKiemSachForm.Designer.cs">
+      <DependentUpon>TimKiemSachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\nhà xuất bản\ThemNXBForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\nhà xuất bản\ThemNXBForm.Designer.cs">
+      <DependentUpon>ThemNXBForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\nhà xuất bản\ThongTinNXBForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\nhà xuất bản\ThongTinNXBForm.Designer.cs">
+      <DependentUpon>ThongTinNXBForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\TRASACH.cs" />
+    <Compile Include="Forms\chức năng\TraSachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\chức năng\TraSachForm.Designer.cs">
+      <DependentUpon>TraSachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\nhà xuất bản\XoaSuaNXBForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\nhà xuất bản\XoaSuaNXBForm.Designer.cs">
+      <DependentUpon>XoaSuaNXBForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\thống kê\ThongKeLoaiSachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\thống kê\ThongKeLoaiSachForm.Designer.cs">
+      <DependentUpon>ThongKeLoaiSachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\chức năng\timKiemSachMuonTheoNgay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\chức năng\timKiemSachMuonTheoNgay.Designer.cs">
+      <DependentUpon>timKiemSachMuonTheoNgay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\chức năng\TimKiemSVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\chức năng\TimKiemSVForm.Designer.cs">
+      <DependentUpon>TimKiemSVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="timKiemSachTraTheoNgay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timKiemSachTraTheoNgay.Designer.cs">
+      <DependentUpon>timKiemSachTraTheoNgay.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddNVForm.resx">
+      <DependentUpon>AddNVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachNVForm.resx">
+      <DependentUpon>DanhSachNVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditNVForm.resx">
+      <DependentUpon>EditNVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\chức năng\MuonSachForm.resx">
+      <DependentUpon>MuonSachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichSuForm.resx">
+      <DependentUpon>LichSuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\chức năng\PhatForm.resx">
+      <DependentUpon>PhatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sách\SachMuonForm.resx">
+      <DependentUpon>SachMuonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sách\SachTraForm.resx">
+      <DependentUpon>SachTraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sách\ThemsachForm.resx">
+      <DependentUpon>ThemsachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sách\ThongtinsachsForm.resx">
+      <DependentUpon>ThongtinsachsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sách\XoaSuaSachForm.resx">
+      <DependentUpon>XoaSuaSachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sinh viên\ThongTinSVForm.resx">
+      <DependentUpon>ThongTinSVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sinh viên\XoaSuaSVForm.resx">
+      <DependentUpon>XoaSuaSVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sinh viên\ThemSVForm.resx">
+      <DependentUpon>ThemSVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\thống kê\ThongKeGioiTinhForm.resx">
+      <DependentUpon>ThongKeGioiTinhForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\thống kê\ThongKeSachTongSachForm.resx">
+      <DependentUpon>ThongKeSachTongSachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\thống kê\ThongKeSachMuonTraForm.resx">
+      <DependentUpon>ThongKeSachMuonTraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\chức năng\TimKiemSachForm.resx">
+      <DependentUpon>TimKiemSachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\chức năng\TraSachForm.resx">
+      <DependentUpon>TraSachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\nhà xuất bản\ThemNXBForm.resx">
+      <DependentUpon>ThemNXBForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\nhà xuất bản\ThongTinNXBForm.resx">
+      <DependentUpon>ThongTinNXBForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\nhà xuất bản\XoaSuaNXBForm.resx">
+      <DependentUpon>XoaSuaNXBForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\thống kê\ThongKeLoaiSachForm.resx">
+      <DependentUpon>ThongKeLoaiSachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyForm.resx">
+      <DependentUpon>QuanLyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\chức năng\timKiemSachMuonTheoNgay.resx">
+      <DependentUpon>timKiemSachMuonTheoNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\chức năng\TimKiemSVForm.resx">
+      <DependentUpon>TimKiemSVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timKiemSachTraTheoNgay.resx">
+      <DependentUpon>timKiemSachTraTheoNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="teDataSet.xsc">
+      <DependentUpon>teDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>teDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="teDataSet.xss">
+      <DependentUpon>teDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet1.xsc">
+      <DependentUpon>teDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>teDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="teDataSet1.xss">
+      <DependentUpon>teDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet2.xsc">
+      <DependentUpon>teDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>teDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="teDataSet2.xss">
+      <DependentUpon>teDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet3.xsc">
+      <DependentUpon>teDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>teDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="teDataSet3.xss">
+      <DependentUpon>teDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet4.xsc">
+      <DependentUpon>teDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="teDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>teDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="teDataSet4.xss">
+      <DependentUpon>teDataSet4.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\148176.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1481761.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-icon-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_gallery1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\create_users_group_people-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\682d9f41-125a-49d0-b296-40f56f20d7a8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groups-Meeting-Light-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Documents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images25401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upload1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tuvnbikiptangchieucao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box Remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button Stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button White Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button White Remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glyph Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glyph Remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
