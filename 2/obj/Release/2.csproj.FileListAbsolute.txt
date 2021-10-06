@@ -73,3 +73,41 @@ D:\Database management\Project\Final\2\2\obj\Release\2.csproj.GenerateResource.c
 D:\Database management\Project\Final\2\2\obj\Release\2.csproj.CoreCompileInputs.cache
 D:\Database management\Project\Final\2\2\obj\Release\2.exe
 D:\Database management\Project\Final\2\2\obj\Release\2.pdb
+D:\MUonxiu\Winform_LibraryManage\2\bin\Release\2.exe.config
+D:\MUonxiu\Winform_LibraryManage\2\bin\Release\2.exe
+D:\MUonxiu\Winform_LibraryManage\2\bin\Release\2.pdb
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\2.csproj.AssemblyReference.cache
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.AddNVForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.DanhSachNVForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.EditNVForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.LoginForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.MainForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.MuonSachForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.LichSuForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.PhatForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.Properties.Resources.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.SachMuonForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.SachTraForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThemsachForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThongtinsachsForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.XoaSuaSachForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThongTinSVForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.XoaSuaSVForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThemSVForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThongKeGioiTinhForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThongKeSachMuonForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThongKeSachTraForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.TimKiemSachForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.TraSachForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThemNXBForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThongTinNXBForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.XoaSuaNXBForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.ThongKeLoaiSachForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.QuanLyForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.timKiemSachMuonTheoNgay.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.TimKiemSVForm.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\_2.timKiemSachTraTheoNgay.resources
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\2.csproj.GenerateResource.cache
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\2.csproj.CoreCompileInputs.cache
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\2.exe
+D:\MUonxiu\Winform_LibraryManage\2\obj\Release\2.pdb

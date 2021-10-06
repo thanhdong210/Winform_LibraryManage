@@ -50,9 +50,9 @@ namespace _2
             this.label1.Location = new System.Drawing.Point(145, 36);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 17);
+            this.label1.Size = new System.Drawing.Size(115, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Username";
+            this.label1.Text = "Username111";
             // 
             // label2
             // 
